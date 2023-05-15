@@ -9,7 +9,7 @@
   <div v-else>
     <h4
       class="heading"
-      v-if="unsyncedDrives.length"
+      v-if="unsyncedDrives.length" 
     >
       {{ $t('drives.unsynced_drives') }}
     </h4>
